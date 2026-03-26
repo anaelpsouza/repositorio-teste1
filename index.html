@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um site de exemplo do modulo de CSS">
+    <meta name="keywords" content="Agencia Digital, CSS, HTML">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <script src="https://kit.fontawesome.com/cd18b9e20c.js" crossorigin="anonymous"></script>
+    <title>Portfólio Anael</title>
+</head>
+
+<body>
+    <nav id="navbars" class="navbar">
+        <div class="logo">
+            <h1>Anael Pereira De Souza</h1>
+        </div>
+        <div class="menu">
+            <a href="#header">Inicio</a>
+            <a href="#header">Sobre Mim</a>
+            <a href="#servicos">Skills</a>
+            <a id="botao" href="#contacts">Contatos</a>
+        </div>
+    </nav>
+    <header id="header" class="header">
+        <div class="headline">
+            <h2 style="font-size:40px">Desenvolvedor Web Full Stack <br>em constante evolução</h2>
+            <p>Adoro o desafio de aprender novas tecnologias e aplicá-las para resolver problemas reais.
+                Minha jornada no desenvolvimento web, <br> passa pela criação de layouts modernos com HTML/CSS até a
+                lógica
+                complexa de integração com API e bancos de dados.<br>
+                Busco sempre o equilíbrio entre uma interface bonita e um código de back-end performático e seguro.</p>
+            <a href="#servicos" class="contact-btn"><b>Mais informações</b></a>
+        </div>
+        <div class="img-headline">
+            <img style="max-width: 90%;" src="img/foto.jpeg">
+        </div>
+    </header>
+    <section>
+        <h2 id="servicos">Hard Skills e Soft Skills</h2>
+        <div class="servicos">
+            <div class="card">
+                <img src="img/pc.png">
+                <div class="card-text">
+                    <h3 class="color">Front-end: A Experiência do Usuário</h3>
+                    <p><b>Linguagens Base:</b> HTML5 (Semântico) e CSS3 (Flexbox/Grid).<br>
+                        <b>JavaScript Moderno:</b> Domínio de ES6+ (Arrow functions, Desestruturação, Promises).<br>
+                        <b>Frameworks/Libraries:</b>React.js (líder de mercado), Vue.js ou Next.js (para SEO e
+                        performance).<br>
+                        <b>Estilização:</b>Tailwind CSS ou Styled Components.<br>
+                        Consumo de APIs: Uso de Fetch API ou Axios
+                    </p>
+                </div>
+                <div class="texto-oculto">
+                    <h1><i class="fa-solid fa-bullhorn"></i></h1>
+                    <h3 class="color">Comunicação Assertiva</h3>
+                    <p>Habilidade em escrita de documentação clara e participação ativa em code reviews, focando em
+                        feedbacks construtivos.</p>
+                    <p>Habilidade em traduzir conceitos técnicos para uma linguagem acessível a diferentes stakeholders,
+                        garantindo o alinhamento de expectativas e a fluidez do projeto.</p>
+                    <p>Capacidade de expressar ideias e feedbacks de forma clara, direta e respeitosa, eliminando ruídos
+                        de comunicação e
+                        garantindo que os objetivos do projeto sejam compreendidos por todos os envolvidos.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/pc.png">
+                <div class="card-text">
+                    <h3 class="color">Back-end: A Inteligência e os Dados</h3>
+                    <p><b>Linguagens/Ambientes:</b>Node.js (JavaScript no servidor) ou Python (Django/FastAPI).<br>
+                        <b>Construção de APIs:</b>Arquitetura RESTful (o padrão mais comum) ou GraphQL.<br>
+                        <b>Bancos de Dados:</b>Relacionais (SQL): PostgreSQL ou MySQL.<br>
+                        <b>Não-Relacionais:</b>(NoSQL): MongoDB.<br>
+                        <b>Autenticação:</b>Implementação de login seguro com JWT
+                    </p>
+                </div>
+                <div class="texto-oculto">
+                    <h1><i class="fa-solid fa-glasses"></i></h1>
+                    <h3 class="color">Adaptabilidade e Aprendizado Contínuo</h3>
+                    <p>Entusiasta de tecnologia com facilidade para aprender novas stacks e ferramentas conforme a
+                        necessidade do projeto e as tendências do mercado.</p>
+                    <p>Mentalidade ágil voltada para a rápida absorção de novas tecnologias e metodologias. Possuo
+                        facilidade em pivotar estratégias conforme as necessidades do projeto,
+                        transformando mudanças repentinas em oportunidades de inovação.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/pc.png">
+                <div class="card-text">
+                    <h3 class="color"> Ferramentas e Infraestrutura</h3>
+                    <p><b>Controle de Versão:</b>Git & GitHub (essencial para trabalhar em equipe).<br>
+                        <b>DevOps Básico:</b>Deploy em plataformas como Vercel (Front), Railway ou Render (Back), e
+                        noções de Docker.<br>
+                        <b>Testes:</b>Testes unitários com Jest ou Cypress (isso brilha muito em processos
+                        seletivos).<br>
+                        <b>TypeScript:</b>Transformar o JavaScript em uma linguagem fortemente tipada (muito requisitado
+                        hoje).
+                    </p>
+                </div>
+                <div class="texto-oculto">
+                    <h1><i class="fa-solid fa-timeline"></i></h1>
+                    <h3 class="color">Trabalho em Equipe e Colaboração</h3>
+                    <p>Mentalidade colaborativa, acreditando que o sucesso do projeto depende da troca de conhecimentos
+                        e do apoio mútuo entre os desenvolvedores.</p>
+                    <p>Foco na construção de fluxos de trabalho sinérgicos, onde a troca de conhecimentos e o suporte
+                        mútuo são pilares para superar metas.
+                        credito que o sucesso individual é um reflexo direto da força e do alinhamento do coletivo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="logo-rodape">
+            <h1 id="contacts" class="agencia">Portfólio Profissional</h1>
+            <p style="color:white">Siga-me nas redes sociais!</p>
+            <p id="links"> <a href="https://www.instagram.com/" target="_blank">Instagram</a> <a
+                    href="https://www.linkedin.com/" target="_blank">LinkedIn</a> <a href="https://www.github.com/"
+                    target="_blank">GitHub</a></p>
+        </div>
+        <b style="color:white;">© Todos os direitos reservados.</b>
+    </footer>
+</body>
+
+</html>
